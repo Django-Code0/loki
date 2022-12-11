@@ -1,0 +1,285 @@
+[trace_id:None][timestamp:2022-11-09T15:00:37+00:00] [file_info:autoreload.py:637] [func_info:autoreload:run_with_reloader] [level:INFO]- message:Watching for file changes with StatReloader
+[trace_id:6e093c15f70e4191a41d59353db63997][timestamp:2022-11-09T15:00:48+00:00] [file_info:views.py:20] [func_info:views:list] [level:INFO]- message:welcome to django list
+[trace_id:6e093c15f70e4191a41d59353db63997][timestamp:2022-11-09T15:00:48+00:00] [file_info:user.py:7] [func_info:user:test_log] [level:WARNING]- message:test log trace id print
+[trace_id:6e093c15f70e4191a41d59353db63997][timestamp:2022-11-09T15:00:48+00:00] [file_info:user.py:12] [func_info:user:test_log] [level:ERROR]- message:except:division by zero
+Traceback (most recent call last):
+  File "/home/xiaobaiyang/projects/devops_test_python/devops/okr/lib/user.py", line 9, in test_log
+    x = 1 / 0
+ZeroDivisionError: division by zero
+[trace_id:6e093c15f70e4191a41d59353db63997][timestamp:2022-11-09T15:00:48+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:INFO]- message:"GET /okr/users/ HTTP/1.1" 200 9401
+[trace_id:293a9ccd9e9c45aab5d0921e6a3f1b8c][timestamp:2022-11-09T15:00:48+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/bootstrap.min.css
+[trace_id:293a9ccd9e9c45aab5d0921e6a3f1b8c][timestamp:2022-11-09T15:00:48+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+[trace_id:f20fa5bed2844f3bb906108f0b92b5a2][timestamp:2022-11-09T15:00:48+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+[trace_id:3d357a45482a44249adacc1534cb2af6][timestamp:2022-11-09T15:00:48+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/prettify.css
+[trace_id:a14874be75ab4122b4662d605d93933d][timestamp:2022-11-09T15:00:48+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/default.css
+[trace_id:f20fa5bed2844f3bb906108f0b92b5a2][timestamp:2022-11-09T15:00:48+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+[trace_id:3d357a45482a44249adacc1534cb2af6][timestamp:2022-11-09T15:00:48+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+[trace_id:2af40b7652d24becb93b5082b94f63be][timestamp:2022-11-09T15:00:48+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+[trace_id:a14874be75ab4122b4662d605d93933d][timestamp:2022-11-09T15:00:48+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+[trace_id:2af40b7652d24becb93b5082b94f63be][timestamp:2022-11-09T15:00:48+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+[trace_id:8cc2d882b61e4d2ead6a0e9d97adb5db][timestamp:2022-11-09T15:00:48+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/ajax-form.js
+[trace_id:05a4044686444cb18d30f02ad13da68d][timestamp:2022-11-09T15:00:48+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/bootstrap.min.js
+[trace_id:332d3482d42c49cb86994b150d95c253][timestamp:2022-11-09T15:00:48+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/csrf.js
+[trace_id:8cc2d882b61e4d2ead6a0e9d97adb5db][timestamp:2022-11-09T15:00:48+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+[trace_id:05a4044686444cb18d30f02ad13da68d][timestamp:2022-11-09T15:00:48+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+[trace_id:f4168cb3705f4ad2a135105be5b4056f][timestamp:2022-11-09T15:00:48+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/prettify-min.js
+[trace_id:ec02e83a0f13434b8992b08c8af857e0][timestamp:2022-11-09T15:00:48+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/default.js
+[trace_id:332d3482d42c49cb86994b150d95c253][timestamp:2022-11-09T15:00:48+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+[trace_id:f4168cb3705f4ad2a135105be5b4056f][timestamp:2022-11-09T15:00:48+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+[trace_id:ec02e83a0f13434b8992b08c8af857e0][timestamp:2022-11-09T15:00:48+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+[trace_id:749ecbab932f44618ce32097c45832a0][timestamp:2022-11-09T15:00:49+00:00] [file_info:views.py:20] [func_info:views:list] [level:INFO]- message:welcome to django list
+[trace_id:749ecbab932f44618ce32097c45832a0][timestamp:2022-11-09T15:00:49+00:00] [file_info:user.py:7] [func_info:user:test_log] [level:WARNING]- message:test log trace id print
+[trace_id:749ecbab932f44618ce32097c45832a0][timestamp:2022-11-09T15:00:49+00:00] [file_info:user.py:12] [func_info:user:test_log] [level:ERROR]- message:except:division by zero
+Traceback (most recent call last):
+  File "/home/xiaobaiyang/projects/devops_test_python/devops/okr/lib/user.py", line 9, in test_log
+    x = 1 / 0
+ZeroDivisionError: division by zero
+[trace_id:749ecbab932f44618ce32097c45832a0][timestamp:2022-11-09T15:00:49+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:INFO]- message:"GET /okr/users/ HTTP/1.1" 200 9401
+[trace_id:e343b5e8ac7e4e23a2c9ab1d858034b4][timestamp:2022-11-09T15:00:49+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/bootstrap.min.css
+[trace_id:1a7f5a9850f041c2ac2d268860ef52c4][timestamp:2022-11-09T15:00:49+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/prettify.css
+[trace_id:2d956e2b2982427fab99b839679bc8f7][timestamp:2022-11-09T15:00:49+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+[trace_id:d7196d8630694bcdae5b61244de916e3][timestamp:2022-11-09T15:00:49+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+[trace_id:a38e2bbb907d44bfaf2746b91f28c662][timestamp:2022-11-09T15:00:49+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/default.css
+[trace_id:5839cf00f3d248279bd51b74b76db4ca][timestamp:2022-11-09T15:00:49+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/ajax-form.js
+[trace_id:e343b5e8ac7e4e23a2c9ab1d858034b4][timestamp:2022-11-09T15:00:49+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+[trace_id:1a7f5a9850f041c2ac2d268860ef52c4][timestamp:2022-11-09T15:00:49+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+[trace_id:2d956e2b2982427fab99b839679bc8f7][timestamp:2022-11-09T15:00:49+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+[trace_id:d7196d8630694bcdae5b61244de916e3][timestamp:2022-11-09T15:00:49+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+[trace_id:5839cf00f3d248279bd51b74b76db4ca][timestamp:2022-11-09T15:00:49+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+[trace_id:a38e2bbb907d44bfaf2746b91f28c662][timestamp:2022-11-09T15:00:49+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+[trace_id:3cc54bd2868c492fb556b7bff1679925][timestamp:2022-11-09T15:00:49+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/csrf.js
+[trace_id:67e414f0ca5240779ded4c2755e9b347][timestamp:2022-11-09T15:00:49+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/prettify-min.js
+[trace_id:296590f568e04d4181d609aae24efa0d][timestamp:2022-11-09T15:00:49+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/bootstrap.min.js
+[trace_id:74353e5ca56b4d1dbaab532cede200cb][timestamp:2022-11-09T15:00:49+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/default.js
+[trace_id:3cc54bd2868c492fb556b7bff1679925][timestamp:2022-11-09T15:00:49+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+[trace_id:67e414f0ca5240779ded4c2755e9b347][timestamp:2022-11-09T15:00:49+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+[trace_id:296590f568e04d4181d609aae24efa0d][timestamp:2022-11-09T15:00:49+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+[trace_id:74353e5ca56b4d1dbaab532cede200cb][timestamp:2022-11-09T15:00:49+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+[trace_id:1f9d9d06540d45f29e664d0bfe290449][timestamp:2022-11-09T15:00:50+00:00] [file_info:views.py:20] [func_info:views:list] [level:INFO]- message:welcome to django list
+[trace_id:1f9d9d06540d45f29e664d0bfe290449][timestamp:2022-11-09T15:00:50+00:00] [file_info:user.py:7] [func_info:user:test_log] [level:WARNING]- message:test log trace id print
+[trace_id:1f9d9d06540d45f29e664d0bfe290449][timestamp:2022-11-09T15:00:50+00:00] [file_info:user.py:12] [func_info:user:test_log] [level:ERROR]- message:except:division by zero
+Traceback (most recent call last):
+  File "/home/xiaobaiyang/projects/devops_test_python/devops/okr/lib/user.py", line 9, in test_log
+    x = 1 / 0
+ZeroDivisionError: division by zero
+[trace_id:1f9d9d06540d45f29e664d0bfe290449][timestamp:2022-11-09T15:00:50+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:INFO]- message:"GET /okr/users/ HTTP/1.1" 200 9401
+[trace_id:cb2935f242d2457fba520e5e8fdc859e][timestamp:2022-11-09T15:00:50+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/bootstrap.min.css
+[trace_id:9e1720b8c67b47e5932f11c895466130][timestamp:2022-11-09T15:00:50+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+[trace_id:cc0e16009f64488ba568dfd44c0f5a40][timestamp:2022-11-09T15:00:50+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/prettify.css
+[trace_id:9e1720b8c67b47e5932f11c895466130][timestamp:2022-11-09T15:00:50+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+[trace_id:301e1c26415f4293b85a80d45f289304][timestamp:2022-11-09T15:00:50+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+[trace_id:3bca892842a64cd5a72886e644bdf1ea][timestamp:2022-11-09T15:00:50+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/ajax-form.js
+[trace_id:3bca892842a64cd5a72886e644bdf1ea][timestamp:2022-11-09T15:00:50+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+[trace_id:0cb46b71aa85478a93f6066964689e06][timestamp:2022-11-09T15:00:50+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/default.css
+[trace_id:cc0e16009f64488ba568dfd44c0f5a40][timestamp:2022-11-09T15:00:50+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+[trace_id:301e1c26415f4293b85a80d45f289304][timestamp:2022-11-09T15:00:50+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+[trace_id:cb2935f242d2457fba520e5e8fdc859e][timestamp:2022-11-09T15:00:50+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+[trace_id:0cb46b71aa85478a93f6066964689e06][timestamp:2022-11-09T15:00:50+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+[trace_id:580097c1507b45a4818e779519704c28][timestamp:2022-11-09T15:00:50+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/bootstrap.min.js
+[trace_id:411616cc97f540e7850cdbba7a434895][timestamp:2022-11-09T15:00:50+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/prettify-min.js
+[trace_id:1bfb8538211047aea8d42fa948b830bc][timestamp:2022-11-09T15:00:50+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/csrf.js
+[trace_id:1bfb8538211047aea8d42fa948b830bc][timestamp:2022-11-09T15:00:50+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+[trace_id:580097c1507b45a4818e779519704c28][timestamp:2022-11-09T15:00:50+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+[trace_id:411616cc97f540e7850cdbba7a434895][timestamp:2022-11-09T15:00:50+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+[trace_id:16d246486cda4acca9cbf9407a4bb6c1][timestamp:2022-11-09T15:00:50+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/default.js
+[trace_id:16d246486cda4acca9cbf9407a4bb6c1][timestamp:2022-11-09T15:00:50+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+[trace_id:72fc9f4f5aec487f973b0b6cae7ac42b][timestamp:2022-11-09T15:00:50+00:00] [file_info:views.py:20] [func_info:views:list] [level:INFO]- message:welcome to django list
+[trace_id:72fc9f4f5aec487f973b0b6cae7ac42b][timestamp:2022-11-09T15:00:50+00:00] [file_info:user.py:7] [func_info:user:test_log] [level:WARNING]- message:test log trace id print
+[trace_id:72fc9f4f5aec487f973b0b6cae7ac42b][timestamp:2022-11-09T15:00:50+00:00] [file_info:user.py:12] [func_info:user:test_log] [level:ERROR]- message:except:division by zero
+Traceback (most recent call last):
+  File "/home/xiaobaiyang/projects/devops_test_python/devops/okr/lib/user.py", line 9, in test_log
+    x = 1 / 0
+ZeroDivisionError: division by zero
+[trace_id:72fc9f4f5aec487f973b0b6cae7ac42b][timestamp:2022-11-09T15:00:50+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:INFO]- message:"GET /okr/users/ HTTP/1.1" 200 9401
+[trace_id:f5e0699bbf4742bd83c42b7ac6c31993][timestamp:2022-11-09T15:00:51+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+[trace_id:40dfdbb0665546f09e68742d24dbfaab][timestamp:2022-11-09T15:00:51+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/bootstrap.min.css
+[trace_id:2e680cc262204ce2b7993ab6b8aa61bc][timestamp:2022-11-09T15:00:51+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/default.css
+[trace_id:f85a1a93d6f44708a9e87379a105b12f][timestamp:2022-11-09T15:00:51+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+[trace_id:8d30418d276f4febb151127c72c160aa][timestamp:2022-11-09T15:00:51+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/prettify.css
+[trace_id:0c3ed93dd02d46f19bd2bbe9f08b7ccd][timestamp:2022-11-09T15:00:51+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/ajax-form.js
+[trace_id:f5e0699bbf4742bd83c42b7ac6c31993][timestamp:2022-11-09T15:00:51+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+[trace_id:2e680cc262204ce2b7993ab6b8aa61bc][timestamp:2022-11-09T15:00:51+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+[trace_id:40dfdbb0665546f09e68742d24dbfaab][timestamp:2022-11-09T15:00:51+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+[trace_id:f85a1a93d6f44708a9e87379a105b12f][timestamp:2022-11-09T15:00:51+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+[trace_id:0c3ed93dd02d46f19bd2bbe9f08b7ccd][timestamp:2022-11-09T15:00:51+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+[trace_id:8d30418d276f4febb151127c72c160aa][timestamp:2022-11-09T15:00:51+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+[trace_id:76dc17a383944d35b93592488c0d64b4][timestamp:2022-11-09T15:00:51+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/csrf.js
+[trace_id:d8259470ee414a8d9fafbe492e5d44a3][timestamp:2022-11-09T15:00:51+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/default.js
+[trace_id:35f5bce808594f12ba34b6ad0c78cecc][timestamp:2022-11-09T15:00:51+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/bootstrap.min.js
+[trace_id:559f3b3e67944247943cafb0954f37a9][timestamp:2022-11-09T15:00:51+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/prettify-min.js
+[trace_id:76dc17a383944d35b93592488c0d64b4][timestamp:2022-11-09T15:00:51+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+[trace_id:d8259470ee414a8d9fafbe492e5d44a3][timestamp:2022-11-09T15:00:51+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+[trace_id:35f5bce808594f12ba34b6ad0c78cecc][timestamp:2022-11-09T15:00:51+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+[trace_id:559f3b3e67944247943cafb0954f37a9][timestamp:2022-11-09T15:00:51+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+[trace_id:None][timestamp:2022-11-09T15:01:30+00:00] [file_info:autoreload.py:251] [func_info:autoreload:trigger_reload] [level:INFO]- message:/home/xiaobaiyang/projects/devops_test_python/devops/devops/settings.py changed, reloading.
+[trace_id:None][timestamp:2022-11-09T15:01:31+00:00] [file_info:autoreload.py:637] [func_info:autoreload:run_with_reloader] [level:INFO]- message:Watching for file changes with StatReloader
+[trace_id:None][timestamp:2022-11-09T15:01:33+00:00] [file_info:autoreload.py:251] [func_info:autoreload:trigger_reload] [level:INFO]- message:/home/xiaobaiyang/projects/devops_test_python/devops/devops/settings.py changed, reloading.
+[trace_id:None][timestamp:2022-11-09T15:01:33+00:00] [file_info:autoreload.py:637] [func_info:autoreload:run_with_reloader] [level:INFO]- message:Watching for file changes with StatReloader
+[trace_id:f171add616fb43289acc86818f7f6ec9][timestamp:2022-11-09T15:01:44+00:00] [file_info:views.py:20] [func_info:views:list] [level:INFO]- message:welcome to django list
+[trace_id:f171add616fb43289acc86818f7f6ec9][timestamp:2022-11-09T15:01:44+00:00] [file_info:user.py:7] [func_info:user:test_log] [level:WARNING]- message:test log trace id print
+[trace_id:f171add616fb43289acc86818f7f6ec9][timestamp:2022-11-09T15:01:44+00:00] [file_info:user.py:12] [func_info:user:test_log] [level:ERROR]- message:except:division by zero
+Traceback (most recent call last):
+  File "/home/xiaobaiyang/projects/devops_test_python/devops/okr/lib/user.py", line 9, in test_log
+    x = 1 / 0
+ZeroDivisionError: division by zero
+[trace_id:f171add616fb43289acc86818f7f6ec9][timestamp:2022-11-09T15:01:44+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:INFO]- message:"GET /okr/users/ HTTP/1.1" 200 9401
+[trace_id:d3a653caa098496389ad96e91fe68a96][timestamp:2022-11-09T15:01:44+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/bootstrap.min.css
+[trace_id:cb0186c272bb4774981888a278f7c075][timestamp:2022-11-09T15:01:44+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+[trace_id:d3a653caa098496389ad96e91fe68a96][timestamp:2022-11-09T15:01:44+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+[trace_id:cb0186c272bb4774981888a278f7c075][timestamp:2022-11-09T15:01:44+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+[trace_id:41caff89aaaf44d8bf6c6526ff4a1bf2][timestamp:2022-11-09T15:01:44+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/prettify.css
+[trace_id:6e9283bb2edc44c392cda375aab044d8][timestamp:2022-11-09T15:01:44+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/default.css
+[trace_id:53a8abc98ac14a769871550243dbd170][timestamp:2022-11-09T15:01:44+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+[trace_id:41caff89aaaf44d8bf6c6526ff4a1bf2][timestamp:2022-11-09T15:01:44+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+[trace_id:2f555a472cc44e26a25a624e59fa87cb][timestamp:2022-11-09T15:01:44+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/ajax-form.js
+[trace_id:a116f7f3b4e04b2c840f3db28055b6bc][timestamp:2022-11-09T15:01:44+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/csrf.js
+[trace_id:6e9283bb2edc44c392cda375aab044d8][timestamp:2022-11-09T15:01:44+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+[trace_id:53a8abc98ac14a769871550243dbd170][timestamp:2022-11-09T15:01:44+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+[trace_id:c3b7330697c34403aaf3cea15c9b3afe][timestamp:2022-11-09T15:01:44+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/bootstrap.min.js
+[trace_id:2f555a472cc44e26a25a624e59fa87cb][timestamp:2022-11-09T15:01:44+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+[trace_id:a116f7f3b4e04b2c840f3db28055b6bc][timestamp:2022-11-09T15:01:44+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+[trace_id:c3b7330697c34403aaf3cea15c9b3afe][timestamp:2022-11-09T15:01:44+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+[trace_id:a7c7656d2d0344398c17a6c1c68cc5c4][timestamp:2022-11-09T15:01:44+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/prettify-min.js
+[trace_id:b849c687fbf04c57ae01b5256aece3b6][timestamp:2022-11-09T15:01:44+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/default.js
+[trace_id:a7c7656d2d0344398c17a6c1c68cc5c4][timestamp:2022-11-09T15:01:44+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+[trace_id:b849c687fbf04c57ae01b5256aece3b6][timestamp:2022-11-09T15:01:44+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+[trace_id:91831ab64f5b40babd5091861fed6145][timestamp:2022-11-09T15:01:45+00:00] [file_info:views.py:20] [func_info:views:list] [level:INFO]- message:welcome to django list
+[trace_id:91831ab64f5b40babd5091861fed6145][timestamp:2022-11-09T15:01:45+00:00] [file_info:user.py:7] [func_info:user:test_log] [level:WARNING]- message:test log trace id print
+[trace_id:91831ab64f5b40babd5091861fed6145][timestamp:2022-11-09T15:01:45+00:00] [file_info:user.py:12] [func_info:user:test_log] [level:ERROR]- message:except:division by zero
+Traceback (most recent call last):
+  File "/home/xiaobaiyang/projects/devops_test_python/devops/okr/lib/user.py", line 9, in test_log
+    x = 1 / 0
+ZeroDivisionError: division by zero
+[trace_id:91831ab64f5b40babd5091861fed6145][timestamp:2022-11-09T15:01:45+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:INFO]- message:"GET /okr/users/ HTTP/1.1" 200 9401
+[trace_id:126ab748042845599b0690c8e9e6e8a0][timestamp:2022-11-09T15:01:45+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+[trace_id:4c52525fcaf745ddb103cad85e50e7cb][timestamp:2022-11-09T15:01:45+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/default.css
+[trace_id:62041f3771014537810ef0459c28a61c][timestamp:2022-11-09T15:01:45+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/prettify.css
+[trace_id:62041f3771014537810ef0459c28a61c][timestamp:2022-11-09T15:01:45+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+[trace_id:1a94136b6c3f410f8138fbd99d8c8913][timestamp:2022-11-09T15:01:45+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/bootstrap.min.css
+[trace_id:09f966f077514ea99237f64c9544130c][timestamp:2022-11-09T15:01:45+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/ajax-form.js
+[trace_id:4c52525fcaf745ddb103cad85e50e7cb][timestamp:2022-11-09T15:01:45+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+[trace_id:126ab748042845599b0690c8e9e6e8a0][timestamp:2022-11-09T15:01:45+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+[trace_id:1a94136b6c3f410f8138fbd99d8c8913][timestamp:2022-11-09T15:01:45+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+[trace_id:1963f4a14c554316805a3278581463e8][timestamp:2022-11-09T15:01:45+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+[trace_id:09f966f077514ea99237f64c9544130c][timestamp:2022-11-09T15:01:45+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+[trace_id:4864d8a937f040c699716a0748a7fd2d][timestamp:2022-11-09T15:01:45+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/bootstrap.min.js
+[trace_id:f0823e939f8c4c0494c992a090357922][timestamp:2022-11-09T15:01:45+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/csrf.js
+[trace_id:69c3d73d8a4a4aceb737bcca0233e21d][timestamp:2022-11-09T15:01:45+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/prettify-min.js
+[trace_id:1963f4a14c554316805a3278581463e8][timestamp:2022-11-09T15:01:45+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+[trace_id:05f70f7795354fd082a3f7eb7ea4913c][timestamp:2022-11-09T15:01:45+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/default.js
+[trace_id:4864d8a937f040c699716a0748a7fd2d][timestamp:2022-11-09T15:01:45+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+[trace_id:f0823e939f8c4c0494c992a090357922][timestamp:2022-11-09T15:01:45+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+[trace_id:69c3d73d8a4a4aceb737bcca0233e21d][timestamp:2022-11-09T15:01:45+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+[trace_id:05f70f7795354fd082a3f7eb7ea4913c][timestamp:2022-11-09T15:01:45+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+[trace_id:6b2fd402892f4e2cb8e0f0230c0f568a][timestamp:2022-11-09T15:01:46+00:00] [file_info:views.py:20] [func_info:views:list] [level:INFO]- message:welcome to django list
+[trace_id:6b2fd402892f4e2cb8e0f0230c0f568a][timestamp:2022-11-09T15:01:46+00:00] [file_info:user.py:7] [func_info:user:test_log] [level:WARNING]- message:test log trace id print
+[trace_id:6b2fd402892f4e2cb8e0f0230c0f568a][timestamp:2022-11-09T15:01:46+00:00] [file_info:user.py:12] [func_info:user:test_log] [level:ERROR]- message:except:division by zero
+Traceback (most recent call last):
+  File "/home/xiaobaiyang/projects/devops_test_python/devops/okr/lib/user.py", line 9, in test_log
+    x = 1 / 0
+ZeroDivisionError: division by zero
+[trace_id:6b2fd402892f4e2cb8e0f0230c0f568a][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:INFO]- message:"GET /okr/users/ HTTP/1.1" 200 9401
+[trace_id:a40b73e9ddb94bfa825e2a6dc1beb7d5][timestamp:2022-11-09T15:01:46+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/bootstrap.min.css
+[trace_id:dfde7d6e916a4a37bdbf4d3950a15527][timestamp:2022-11-09T15:01:46+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+[trace_id:420440c3c82e4de2b4ba4be0e3884de0][timestamp:2022-11-09T15:01:46+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/default.css
+[trace_id:264d5ebdb67e40fa899f5059a9a22142][timestamp:2022-11-09T15:01:46+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/prettify.css
+[trace_id:6565e56b3a904324afee512a493825c7][timestamp:2022-11-09T15:01:46+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+[trace_id:56231916fed04cfbaf1a91c84c8b613d][timestamp:2022-11-09T15:01:46+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/ajax-form.js
+[trace_id:a40b73e9ddb94bfa825e2a6dc1beb7d5][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+[trace_id:dfde7d6e916a4a37bdbf4d3950a15527][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+[trace_id:264d5ebdb67e40fa899f5059a9a22142][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+[trace_id:420440c3c82e4de2b4ba4be0e3884de0][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+[trace_id:56231916fed04cfbaf1a91c84c8b613d][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+[trace_id:6565e56b3a904324afee512a493825c7][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+[trace_id:acf03a308abf4de4b0252eed20e4e1b0][timestamp:2022-11-09T15:01:46+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/csrf.js
+[trace_id:acf03a308abf4de4b0252eed20e4e1b0][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+[trace_id:7bb0f0b1b1044748bffbf842161ceac2][timestamp:2022-11-09T15:01:46+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/bootstrap.min.js
+[trace_id:e8fa1d05821b4023bc6c788660b736e5][timestamp:2022-11-09T15:01:46+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/prettify-min.js
+[trace_id:3b145da8882e428599dcbcfb8e49e3d3][timestamp:2022-11-09T15:01:46+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/default.js
+[trace_id:7bb0f0b1b1044748bffbf842161ceac2][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+[trace_id:3b145da8882e428599dcbcfb8e49e3d3][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+[trace_id:e8fa1d05821b4023bc6c788660b736e5][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+[trace_id:20220e08be15409e8b659bb273e3b5e7][timestamp:2022-11-09T15:01:46+00:00] [file_info:views.py:20] [func_info:views:list] [level:INFO]- message:welcome to django list
+[trace_id:20220e08be15409e8b659bb273e3b5e7][timestamp:2022-11-09T15:01:46+00:00] [file_info:user.py:7] [func_info:user:test_log] [level:WARNING]- message:test log trace id print
+[trace_id:20220e08be15409e8b659bb273e3b5e7][timestamp:2022-11-09T15:01:46+00:00] [file_info:user.py:12] [func_info:user:test_log] [level:ERROR]- message:except:division by zero
+Traceback (most recent call last):
+  File "/home/xiaobaiyang/projects/devops_test_python/devops/okr/lib/user.py", line 9, in test_log
+    x = 1 / 0
+ZeroDivisionError: division by zero
+[trace_id:20220e08be15409e8b659bb273e3b5e7][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:INFO]- message:"GET /okr/users/ HTTP/1.1" 200 9401
+[trace_id:a288700a1ff34a4b83ea903fa6dacda5][timestamp:2022-11-09T15:01:46+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/bootstrap.min.css
+[trace_id:cef2514089b9439ab95c68cde3b98b5f][timestamp:2022-11-09T15:01:46+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/default.css
+[trace_id:04b042b043a348ee9aea7c68becaa814][timestamp:2022-11-09T15:01:46+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+[trace_id:04b042b043a348ee9aea7c68becaa814][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+[trace_id:e0d17237c23342cea2f43bdeb374fe47][timestamp:2022-11-09T15:01:46+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/ajax-form.js
+[trace_id:647665bb14934dae8215a8dc81ca4fcd][timestamp:2022-11-09T15:01:46+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+[trace_id:a288700a1ff34a4b83ea903fa6dacda5][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+[trace_id:cef2514089b9439ab95c68cde3b98b5f][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+[trace_id:c41f7a81db4b42ba9292411ac2eda036][timestamp:2022-11-09T15:01:46+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/prettify.css
+[trace_id:c41f7a81db4b42ba9292411ac2eda036][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+[trace_id:647665bb14934dae8215a8dc81ca4fcd][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+[trace_id:e0d17237c23342cea2f43bdeb374fe47][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+[trace_id:79259470ace84741ba6e429ee32c41ca][timestamp:2022-11-09T15:01:46+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/csrf.js
+[trace_id:2453310df6014dcf9965cd9894aa6847][timestamp:2022-11-09T15:01:46+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/bootstrap.min.js
+[trace_id:79259470ace84741ba6e429ee32c41ca][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+[trace_id:2453310df6014dcf9965cd9894aa6847][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+[trace_id:43f8d0388324451c89e6a278038f669d][timestamp:2022-11-09T15:01:46+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/default.js
+[trace_id:339cbcab737047f48ba351456e1c84a5][timestamp:2022-11-09T15:01:46+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/prettify-min.js
+[trace_id:339cbcab737047f48ba351456e1c84a5][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+[trace_id:43f8d0388324451c89e6a278038f669d][timestamp:2022-11-09T15:01:46+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+[trace_id:d5ebbda31bd54123bc30d6afe018609b][timestamp:2022-11-09T15:01:47+00:00] [file_info:views.py:20] [func_info:views:list] [level:INFO]- message:welcome to django list
+[trace_id:d5ebbda31bd54123bc30d6afe018609b][timestamp:2022-11-09T15:01:47+00:00] [file_info:user.py:7] [func_info:user:test_log] [level:WARNING]- message:test log trace id print
+[trace_id:d5ebbda31bd54123bc30d6afe018609b][timestamp:2022-11-09T15:01:47+00:00] [file_info:user.py:12] [func_info:user:test_log] [level:ERROR]- message:except:division by zero
+Traceback (most recent call last):
+  File "/home/xiaobaiyang/projects/devops_test_python/devops/okr/lib/user.py", line 9, in test_log
+    x = 1 / 0
+ZeroDivisionError: division by zero
+[trace_id:d5ebbda31bd54123bc30d6afe018609b][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:INFO]- message:"GET /okr/users/ HTTP/1.1" 200 9401
+[trace_id:61f2147ac4ad45149735105528ccfe62][timestamp:2022-11-09T15:01:47+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/bootstrap.min.css
+[trace_id:091867782a54483a9f504aaf367c63d1][timestamp:2022-11-09T15:01:47+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/default.css
+[trace_id:2ee80231f9d04ffa8048bbe7b6018c38][timestamp:2022-11-09T15:01:47+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+[trace_id:61f2147ac4ad45149735105528ccfe62][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+[trace_id:091867782a54483a9f504aaf367c63d1][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+[trace_id:49ed2a6cc301475b95000fe799f070c0][timestamp:2022-11-09T15:01:47+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/prettify.css
+[trace_id:2ee80231f9d04ffa8048bbe7b6018c38][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+[trace_id:49ed2a6cc301475b95000fe799f070c0][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+[trace_id:c75cd4e5264640a9976758d9d16cf271][timestamp:2022-11-09T15:01:47+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+[trace_id:f9d1995cd9de4e3d887f7b9fbac7745d][timestamp:2022-11-09T15:01:47+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/ajax-form.js
+[trace_id:4d9287fc2b454d74aaaabf4819061d60][timestamp:2022-11-09T15:01:47+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/csrf.js
+[trace_id:bbad79e5913c48719a01a261fb2ad842][timestamp:2022-11-09T15:01:47+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/bootstrap.min.js
+[trace_id:c75cd4e5264640a9976758d9d16cf271][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+[trace_id:f9d1995cd9de4e3d887f7b9fbac7745d][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+[trace_id:4d9287fc2b454d74aaaabf4819061d60][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+[trace_id:bbad79e5913c48719a01a261fb2ad842][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+[trace_id:6c36ffeb98724ca790c116edcedcacf7][timestamp:2022-11-09T15:01:47+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/default.js
+[trace_id:8fe501c699804c2dbdc34c5d37a897a7][timestamp:2022-11-09T15:01:47+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/prettify-min.js
+[trace_id:6c36ffeb98724ca790c116edcedcacf7][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+[trace_id:8fe501c699804c2dbdc34c5d37a897a7][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+[trace_id:e01b129623084499a3034322c9ffb01d][timestamp:2022-11-09T15:01:47+00:00] [file_info:views.py:20] [func_info:views:list] [level:INFO]- message:welcome to django list
+[trace_id:e01b129623084499a3034322c9ffb01d][timestamp:2022-11-09T15:01:47+00:00] [file_info:user.py:7] [func_info:user:test_log] [level:WARNING]- message:test log trace id print
+[trace_id:e01b129623084499a3034322c9ffb01d][timestamp:2022-11-09T15:01:47+00:00] [file_info:user.py:12] [func_info:user:test_log] [level:ERROR]- message:except:division by zero
+Traceback (most recent call last):
+  File "/home/xiaobaiyang/projects/devops_test_python/devops/okr/lib/user.py", line 9, in test_log
+    x = 1 / 0
+ZeroDivisionError: division by zero
+[trace_id:e01b129623084499a3034322c9ffb01d][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:INFO]- message:"GET /okr/users/ HTTP/1.1" 200 9401
+[trace_id:eb70c9177fd144e38ab7857f63e150a7][timestamp:2022-11-09T15:01:47+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/bootstrap.min.css
+[trace_id:5bc2e614d8e0469aa24d518bc42fd9c1][timestamp:2022-11-09T15:01:47+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+[trace_id:2410c39d8af745ca92bb372ffc4cc0bf][timestamp:2022-11-09T15:01:47+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/ajax-form.js
+[trace_id:2fdf64a51f3f46b28a47daf23b092c33][timestamp:2022-11-09T15:01:47+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+[trace_id:661204a0f7b840bd895a9eabd75d3af8][timestamp:2022-11-09T15:01:47+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/prettify.css
+[trace_id:b430f05110484dcdbbd19631cbbf83e6][timestamp:2022-11-09T15:01:47+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/css/default.css
+[trace_id:b430f05110484dcdbbd19631cbbf83e6][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+[trace_id:eb70c9177fd144e38ab7857f63e150a7][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+[trace_id:2410c39d8af745ca92bb372ffc4cc0bf][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+[trace_id:2fdf64a51f3f46b28a47daf23b092c33][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+[trace_id:5bc2e614d8e0469aa24d518bc42fd9c1][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+[trace_id:661204a0f7b840bd895a9eabd75d3af8][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+[trace_id:7806608497ac44c080192b4d43b10d7a][timestamp:2022-11-09T15:01:47+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/csrf.js
+[trace_id:6ac53ccbbf78465ab0e69d4d349b0d4d][timestamp:2022-11-09T15:01:47+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/prettify-min.js
+[trace_id:d7141f735e8b4009a3aaf5efd3c9d0be][timestamp:2022-11-09T15:01:47+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/default.js
+[trace_id:a7c9e1d6b4a44fa2b9333a2889756346][timestamp:2022-11-09T15:01:47+00:00] [file_info:log.py:224] [func_info:log:log_response] [level:WARNING]- message:Not Found: /static/rest_framework/js/bootstrap.min.js
+[trace_id:7806608497ac44c080192b4d43b10d7a][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+[trace_id:6ac53ccbbf78465ab0e69d4d349b0d4d][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+[trace_id:d7141f735e8b4009a3aaf5efd3c9d0be][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+[trace_id:a7c9e1d6b4a44fa2b9333a2889756346][timestamp:2022-11-09T15:01:47+00:00] [file_info:basehttp.py:161] [func_info:basehttp:log_message] [level:WARNING]- message:"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
